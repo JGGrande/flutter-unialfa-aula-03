@@ -12,8 +12,9 @@ class Pokemon {
     return urlReplaced.toInt();
   }
 
-  String image(){
-    return 'https://raw.githubsercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${id()}.png';
+  String image() {
+    return 'https://raw.githubusercontent.com/PokeAPI/sprites/master/'
+        'sprites/pokemon/other/home/${id()}.png';
   }
 
 }

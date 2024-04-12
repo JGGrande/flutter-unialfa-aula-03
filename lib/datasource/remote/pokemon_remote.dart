@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:aula03/config.dart';
 import 'package:aula03/models/pokemon.dart';
 import 'package:aula03/services/http_client.dart';
